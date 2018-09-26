@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\FamilyBrowserSetup"
+    "\\RevitFamilyBrowser\\Browser",
+    "\\RevitFamilyBrowser\\Pattern Elements Install"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\RevitFamilyBrowser",
   "PreviewInSolutionExplorer": true
 }

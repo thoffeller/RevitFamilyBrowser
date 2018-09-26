@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RevitFamilyBrowser.Properties {
+namespace zRevitFamilyBrowser.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -104,6 +104,54 @@ namespace RevitFamilyBrowser.Properties {
             }
             set {
                 this["InstallPoints"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SettingPath {
+            get {
+                return ((string)(this["SettingPath"]));
+            }
+            set {
+                this["SettingPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Offset {
+            get {
+                return ((int)(this["Offset"]));
+            }
+            set {
+                this["Offset"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DefaultFamilyPth {
+            get {
+                return ((string)(this["DefaultFamilyPth"]));
+            }
+            set {
+                this["DefaultFamilyPth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DefaultSettingsPath {
+            get {
+                return ((string)(this["DefaultSettingsPath"]));
+            }
+            set {
+                this["DefaultSettingsPath"] = value;
             }
         }
     }
